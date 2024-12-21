@@ -4,10 +4,7 @@ This module interacts with the Bitquery API to fetch top traders on the Solana b
 
 import requests
 
-from solana_dev.utils.constants import ACCESS_TOKEN, BASE_TOKEN
-
-# Define the URL for the API endpoint
-URL = "https://streaming.bitquery.io/eap"
+from solana_dev.utils.constants import ACCESS_TOKEN, BASE_TOKEN, BASE_URL
 
 # Define the GraphQL query and variables
 QUERY = """
@@ -83,7 +80,7 @@ class TokenNetworker:
             'Authorization': f'Bearer {ACCESS_TOKEN}'
         }
         response = requests.post(
-            URL, json={'query': QUERY, 'variables': variables}, headers=headers, timeout=10)
+            BASE_URL, json={'query': QUERY, 'variables': variables}, headers=headers, timeout=10)
         if response.status_code == 200:
             return response.json()
 
