@@ -4,7 +4,7 @@ This module interacts with the Bitquery API to fetch top traders on the Solana b
 
 import requests
 
-from solana_dev.utils.constants import ACCESS_TOKEN, BASE_TOKEN, BASE_URL
+from utils.constants import ACCESS_TOKEN, BASE_TOKEN, BASE_URL
 
 # Define the GraphQL query and variables
 QUERY = """

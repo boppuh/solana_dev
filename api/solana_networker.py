@@ -4,7 +4,7 @@ This module interacts with the Bitquery API to fetch data from the Solana blockc
 
 import requests
 
-from solana_dev.utils.constants import ACCESS_TOKEN, BASE_URL
+from utils.constants import ACCESS_TOKEN, BASE_URL
 
 QUERY = """
 query TrendingTokens {
