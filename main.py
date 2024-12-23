@@ -9,13 +9,25 @@ from utils.printer import PrintingUtils
 if __name__ == "__main__":
 
     networker = SolscanNetworker()
+    printer = PrintingUtils(file_name="tokens.txt")
 
-    tokens = networker.getTokensForWalletAddress(
-        "4yCqEknZEJwPngkAaX4F2peVUGGhWB82kwBKK7LHGg1A")
+    printer.write("Trending tokens")
 
-    PrintingUtils.print_tokens_table(tokens=tokens)
+    tokens = networker.getTrendingTokens()
 
-    owners = networker.getTopOwnersOfToken(
-        "B8q1emW1dKLerpaiLi9n4ZVSCMLaDZUe8T6mPekPpump")
+    printer.print_trending_tokens_table(tokens=tokens)
 
-    PrintingUtils.print_owners_table(owners=owners)
+    for token in tokens:
+        printer.write("Top owners of token: " + token.address)
+        owners = networker.getTopOwnersOfToken(token.address)
+        printer.print_owners_table(owners=owners)
+
+    WALLET_ADDRESS = "4yCqEknZEJwPngkAaX4F2peVUGGhWB82kwBKK7LHGg1A"
+
+    printer.write("Tokens for wallet address: " + WALLET_ADDRESS)
+
+    tokens = networker.getTokensForWalletAddress(WALLET_ADDRESS)
+
+    printer.print_tokens_table(tokens=tokens)
+
+    printer.close()

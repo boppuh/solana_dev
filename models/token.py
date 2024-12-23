@@ -4,11 +4,11 @@ from typing import Optional
 
 @dataclass
 class Token:
-    account: str
     address: str
-    amount: int
     decimals: int
-    owner: str
+    owner: Optional[str] = None
+    amount: Optional[int] = None
+    account: Optional[str] = None
     name: Optional[str] = None
     symbol: Optional[str] = None
 
@@ -20,6 +20,15 @@ class Token:
             amount=data["amount"],
             decimals=data["token_decimals"],
             owner=data["owner"]
+        )
+
+    @classmethod
+    def from_trending_dict(cls, data: dict):
+        return cls(
+            address=data["address"],
+            decimals=data["decimals"],
+            name=data["name"],
+            symbol=data["symbol"],
         )
 
     def set_name(self, name: str):
