@@ -12,6 +12,22 @@ class SolscanNetworker:
     def __init__(self):
         self.base_networker = BaseNetworker(SOLSCAN_BASE_URL)
 
+    def getTrendingTokens(self, limit: int = 10):
+        params = {
+            "limit": limit
+        }
+        try:
+            response = self.base_networker.get(
+                "token/trending", params=params, headers=HEADERS)
+            print(response)
+            tokens_response = json.loads(json.dumps(response["data"]))
+            print(tokens_response)
+            tokens = [Token.from_dict(token) for token in tokens_response]
+            return tokens
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return None
+
     def getTokensForWalletAddress(self,
                                   address: str,
                                   page: int = 1,
