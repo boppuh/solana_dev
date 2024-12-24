@@ -19,9 +19,7 @@ class SolscanNetworker:
         try:
             response = self.base_networker.get(
                 "token/trending", params=params, headers=HEADERS)
-            print(response)
             tokens_response = json.loads(json.dumps(response["data"]))
-            print(tokens_response)
             tokens = [Token.from_trending_dict(
                 token) for token in tokens_response]
             return tokens

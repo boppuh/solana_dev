@@ -1,132 +1,184 @@
 Trending tokens
 
-+-----------+----------------+----------------------------------------------+
-| Symbol    | Name           | Address                                      |
-+===========+================+==============================================+
-| SOMETHING | It's Something | BsLMs45jkrBiWXyHTmAzSU3LaH1fNimDUbfyvS9rpump |
-+-----------+----------------+----------------------------------------------+
-| BORK      | BORK           | 3BYHCK5VtzDJGhAQGyKexqYY3kkR91yrarTeW2GAXFQf |
-+-----------+----------------+----------------------------------------------+
-| lou       | lou            | 5DQSDg6SGkbsbykq4mQstpcL4d5raEHc6rY7LgBwpump |
-+-----------+----------------+----------------------------------------------+
-| BROTHERS  | Sons of Solana | G85Kr4dnR3M1uymyjfyAWLNtzf7hFELQsmwwwt73dYvA |
-+-----------+----------------+----------------------------------------------+
-| Digi      | Digicoin       | AUdUEc98MGfEHJiJfCgMaW8gKdcfNDio8BFzGKBwjztC |
-+-----------+----------------+----------------------------------------------+
-| SCOUT     | Scoutly AI     | GLPdQwGtjcynj3RLraenPeR9v1REnpdyuciPBpVipump |
-+-----------+----------------+----------------------------------------------+
-| PENGU     | Pudgy Penguins | 2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv |
-+-----------+----------------+----------------------------------------------+
-| 𝕏mas      | 𝕏mas           | yfVhKobAgpFt3cP7fcbqbY8UdRHz2XRHw8ibPpBpump  |
-+-----------+----------------+----------------------------------------------+
-| SOL       | Wrapped SOL    | So11111111111111111111111111111111111111112  |
-+-----------+----------------+----------------------------------------------+
-| TrenchAI  | Trenches AI    | AaWVpk6eZbgBfVbq1UfXw3EXBmAvw4QXov1xHuG7pump |
-+-----------+----------------+----------------------------------------------+
++----------+------------------------+----------------------------------------------+
+| Symbol   | Name                   | Address                                      |
++==========+========================+==============================================+
+| Bert     | Bertram The Pomeranian | HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump |
++----------+------------------------+----------------------------------------------+
+| OF       | OnlyFans               | 2e66JiGrwDyvDAA6zTpSe7kVEyFeGHSh9HyasVBcpump |
++----------+------------------------+----------------------------------------------+
+| BUY      | Boomer Unicorn Yawn    | FZpu6pb83hsXb1xZKsUhWBw2QxhWhghWsxwwnWWHbMjZ |
++----------+------------------------+----------------------------------------------+
+| TITCOIN  | Titcoin                | 7NZEb1TkWsuGxtcyq3xDL6KzvbXNB6agsxG2JRGpXAdB |
++----------+------------------------+----------------------------------------------+
+| SMAS     | Squidmas               | 4w5zmFr8C4MxqtXPs3SiwTwM5xM6KG6Z7zsyhoAppump |
++----------+------------------------+----------------------------------------------+
+| CARLO    | CARLO THE DOG          | FKmHAP9EA2FcjBLv2oaRN3jSuwz7ZhpE8wZGbhCVLZW4 |
++----------+------------------------+----------------------------------------------+
+| Digi     | Digicoin               | AUdUEc98MGfEHJiJfCgMaW8gKdcfNDio8BFzGKBwjztC |
++----------+------------------------+----------------------------------------------+
+| MOLECULE | Molecule               | 3QPiinFaKeBkv28boLjn9rv1ci6WEd6VXAfmNHz8XEeJ |
++----------+------------------------+----------------------------------------------+
+| lou      | lou                    | 5DQSDg6SGkbsbykq4mQstpcL4d5raEHc6rY7LgBwpump |
++----------+------------------------+----------------------------------------------+
+| PENGU    | Pudgy Penguins         | 2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv |
++----------+------------------------+----------------------------------------------+
 
-Top owners of token: BsLMs45jkrBiWXyHTmAzSU3LaH1fNimDUbfyvS9rpump
+Top owners of token: HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump
+
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| Address                                      |         Amount |   Decimals | Owner                                        |   Rank |
++==============================================+================+============+==============================================+========+
+| GA1iJ5DSTiqbTwLs62LKARBG2yxTQouq9axBE2fooVMJ | 51944679326268 |          6 | 5PAhQiYdLBd6SVdjzBQDxUAEFyDdF5ExNPQfcscnPRj5 |      1 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| 3kgSUMQicmPP3nxMq17pFFnVajhJoK8NaxnSc2TtfCU2 | 27665246003173 |          6 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      2 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| 9pbji1sFSj26YpraEjuCCeyiVT9hvxGwXxC5u63duwod | 23782388022654 |          6 | EKDB7EyLPD7a2Mqo7Kh8Y4aR7gD26VErY3yj41eZjwCJ |      3 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| 2NHYAo6wHttEkhYf6rg3dYKoKsh1ExeGvW4nYZuMpUEN | 20050000000002 |          6 | BbbNwhUDwQEBbng9XioUknpbou1KiGKqbxLy8eDUkDJV |      4 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| 5VBTVUyTk9hmKwaVvH6yWXpNFnerPADnUf4ZLHwTyx1D | 16996694619725 |          6 | ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ |      5 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| HEQ8rEzyDYaZzWGiDPtgb9JjJvgguEQygaTmLjjweFbY | 15914387247888 |          6 | 6u5JMHhDjQBJ9oC1ujsmcuTToR3sMyYYNxYs8yiUEGVY |      6 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| CV9S6XVTfp8FuLhMMT2ifyULc8bkJwrcbyDoG8Bk6tsb | 15000000000000 |          6 | GpfHCU45LFdrC5vEv6MhTozH41KZaRu39VpErkx2xZNF |      7 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| AMsHoBD5D8afDX1coUwuYrydafQb2LEAm3VcFB9U9EYH | 14377113287636 |          6 | 46W9hkMxtQfbsD6KirfZHoPuBVvTXj6J1mycdFeTrwEg |      8 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| CSzevDLhoT79ZqAjaya5E2iRGErbum7UdWVcqcKTWc9G | 13781897075735 |          6 | 7c4mb2GmSWfL8bZyBqrue4cY8YRZwn49e5hLN3P37Uwu |      9 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| FG8pvxjWZM81jTQ1dz4z5MvEnt7DGtUf3i344qbiijJ4 | 13547788000000 |          6 | 4AU5JDKxukryk8EcNCGXRcM6Q5Xm1Uw1c7NyMs2mf4GV |     10 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+
+Top owners of token: 2e66JiGrwDyvDAA6zTpSe7kVEyFeGHSh9HyasVBcpump
+
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| Address                                      |         Amount |   Decimals | Owner                                        |   Rank |
++==============================================+================+============+==============================================+========+
+| k77eNoSVFHBPMB7VNvppBPxWNE7GcSUNY8TjrGQ6ShV  | 85616662982526 |          6 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| Hhbwwqs6cVdpnuiS1EqWDTbeTABeEHtRgFNYZ6DJJCzx | 15637925665294 |          6 | 7L4ByJyWzrqMa6YyVBRJXrig1yLgwbPWLXPuucPyHWVZ |      2 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| D77fwi5ZWwcztCdPWpVrexKa4YiDN2b7ypXYRT7zDRb5 | 14881548381318 |          6 | 2izxfsf65ZgoY3tZAJMwLaopkRab4oq4HChei7AN12gc |      3 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| 5fQ24PoCDhiTeMgTWcHk7AyiwSrS6zTS2DKiTJJ2SZf9 | 14000000000000 |          6 | D7K4YhNNHXkfWSLcYLZzLSyrrDZgza6MkqE2YmYAiZ9m |      4 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| 7GWFfypfmiBVgBDde5gTPCH48ArWfdFLdBpddCeLeYpZ | 11366560777474 |          6 | GFPLtQfeJb2XQ88DV7fDtP13LWhtmes6fWZGxdGwCasK |      5 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| 64qYtAzgn4PFxGryCjvoZo1xDkUm4qNgMutq381YWV8p | 11019428447425 |          6 | AYeYtwdyNxQJo7VjE5wXCorHHfSXzWD5uwz9SKzSJkpF |      6 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| 29cNzKFTqRMr9QjrKmYGGqHhKTs84eeTTEg8jeMWX8Eh | 10854328039391 |          6 | 4FnzFhsWige5R2Ex1oRvDyj5kXTxNAXJgQC5FYyxALpW |      7 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| HTu5MuUqmL9EisVw43L3D6EMR6bhdezv6qp4HnWUdk5U | 10586836918513 |          6 | 6cMp2jZyjcErco4D9C1cN3aucgdF4mmVUqV6PSAUfzW7 |      8 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| 436xPx35Wy3jiyY1Y2189wYNgQftMoswQAAjLQDa5zmD | 10564164000000 |          6 | CUaT2MKnoQd1CadiQm1aunw5MwaRKtHx5MgBzwJ62oRG |      9 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+| 3twTmeTV5UK83zbCvg1jvvGarxs8AAa6NuC3jpaGoG7J | 10543155000000 |          6 | C8HaZ3nJvK41WjG6UUHGwtxAoH2gsP87yMDjuCXhQCxi |     10 |
++----------------------------------------------+----------------+------------+----------------------------------------------+--------+
+
+Top owners of token: FZpu6pb83hsXb1xZKsUhWBw2QxhWhghWsxwwnWWHbMjZ
 
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
 | Address                                      |             Amount |   Decimals | Owner                                        |   Rank |
 +==============================================+====================+============+==============================================+========+
-| FV3mrwxSDGhRQR6Z97QiZgVkpQHTUb6GJMh3dbYVZ3fu | 388111095686320400 |          9 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
+| EE9sygXMec7CNV5U8yLeUBQ7k6LJwLdNNk8m3nLcNN2k | 324298291371420100 |          8 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
-| Ddv6KccNWJ7sN1fRtASHXuYMrEsvz6teBEtnU6nSVieg |  33635501005637376 |          9 | 8jK3o7HYwpN6QNq9jfP64B8HLY6ESiVCUmSoaxnv7nsM |      2 |
+| B2CSSiPRzu9HwLhRVkQFVNoepikNTAQqqTw8jF9Lu2nh | 122193288010306480 |          8 | GJmQq7JC9NR9WdiwsVydCvoPBPrJH6U3Ubzut9sgWrFE |      2 |
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
-| FpNq4Fokx9FTzzpcVAChBiaGQocPwGDcj1mt7KfkPR8q |  31321239256489204 |          9 | 5JcgXPh9LuxcdMMjPW7XXnD53gfzRmevNXdFFXLvbpuD |      3 |
+| 4meuCJfCTbJsRrcHvdxr7xPhMFymaKGZKW42zQNkxiUB | 110537030547830720 |          8 | AnMARKKfVb9VyatcFeDjHPNUjV8M8MGeCyzDd2SDZdWW |      3 |
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
-| AMUkckyHZFw5AyAPKQhd2z3DRtTzxVZF9RupgjyATcZd |  26731289186848824 |          9 | GQEi2a8yGGdmw5eHTdLbC5kzBbqopZHQu5ca58AsZ4Rd |      4 |
+| 48aSTqiuUpy7ZQ3Xo8crLQ9uWTmheSckA3uSdGpUvfby |  96483600000000000 |          8 | CGmigdz7Gh5Wc6peFWykpHr3sjmnZ1GSN1KjGdQkUYhH |      4 |
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
-| FDmvYkeKKVK6BBE2EBtx5nuFVBzhBaQe5UwPVUbmHSmj |  25936528690277616 |          9 | 7HuZtJmRXzhDbyGoKxbxVDpHTTbK9wRMDoTboDY1SP2m |      5 |
+| 43nsqtbyZezR25nGVWdYngUmiAahabU5cq9eekf9XZwe |  90134418372485060 |          8 | 6jHTCGHm9Z7a5v4eEvvQ8Gh3w1tbTP3sk9EnWAjT6AnL |      5 |
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
-| DbHgj1koxUXq2q3uPgCnERvPrf8uXD1m8Gd3g8WGVmsU |  20373931658574310 |          9 | 9iy7wednjgQsf9GNuPwxC6SUyChnhqg2QUKb3BQaaJr4 |      6 |
+| 6xDemSzGmgGyhYjwRbkr3BnsXj74p9PHz5UFajRdxBLz |  86841600000000000 |          8 | 3d3aEVohtdtpyQGxZGQaqfHwtTsjU2aw1hDb7xh2G5B5 |      6 |
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
-| HsgWMrcVr4VMWkEnj9pevcxv7ZjQF59JvFYaWGwLXMp9 |  19514188101413616 |          9 | AWuBQH4uJEAEM4DAGgdidfxgqd59kWZACJnqkmZ3vgir |      7 |
+| 9SAvBVrax1EGXos1wTQDVG7AdBsZQ6GyJFQMy3EZo1M8 |  79788900000000000 |          8 | 4gpXHDJWKtfHajReKnQMMYzpi6q14BdiptokUS3rw9vb |      7 |
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
-| 83yX6LpK564Li4y3PnJFZmPzwKcdvG84K1CvbFVK9peJ |  16550493333877122 |          9 | Ennv7dnFpYb89ZgrHg5EQTwT6B9LWq2WQTFGRpEe6kmT |      8 |
+| 9M6HKvMNS1PBQkm7rGKYqSmTzAgrcTbZAFX2pygukCbL |  76000000000000000 |          8 | J8r868tapp2QZPXNeyqggmV8zw1ZooZZ36HchD3tuZLr |      8 |
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
-| 7NqgjQD8Xr7uYREtXdJvz9GFfaxkzs3XyAs3wKvhVNms |  16288640371958060 |          9 | CXLsRNzFPWTsVwwmPASZNK3dh1TXptxvTrHpvSNsrLDw |      9 |
+| 7LmQNTyg93cDy2DabBaLVUc9rTWDtpdBwxzZVUiL7b1g |  70560800000000000 |          8 | 9ApauDK4PFCBRmN35LgYkdSKTWJ1U5boAhpRnanzS7Nb |      9 |
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
-| 9ZaF87BhSc6QaoJTKhkKexNiQbX8qePgXTSxGdQpVYA4 |  15912436063292936 |          9 | 2yAJ9mrHAmwEmZVKB1iZkRGcyi2hW48UVZ5P1uAFjhU1 |     10 |
+| FfjGp4EWG6uCkw5xhVUdtvByjmN1KL9pjfyFj6cBsdNM |  70498500000000000 |          8 | DhFdq1BBRT6k3q8ZrCiqj9aprEfpyognWRMnXe6H2g1e |     10 |
 +----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
 
-Top owners of token: 3BYHCK5VtzDJGhAQGyKexqYY3kkR91yrarTeW2GAXFQf
+Top owners of token: 7NZEb1TkWsuGxtcyq3xDL6KzvbXNB6agsxG2JRGpXAdB
+
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| Address                                      |             Amount |   Decimals | Owner                                        |   Rank |
++==============================================+====================+============+==============================================+========+
+| GrczzKLt5C3KaCqy17ZoEehyM1yghSR7Ff4uVRdmgHe5 | 222635641574750880 |          9 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| D3Gqi5WBesL3DDSSsFVuS6Sfr1iCqVrhC8xBJYBsQYv5 |  45964927043625670 |          9 | HafMJ81dGaRskkeMbpknyA3QEwe4tFjNecXtbTVcwB6x |      2 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 9uP7pBqsPKwu5YBMUEKChnptYPmyPiYnu8nRSJtCkufi |  37720797872130616 |          9 | 6oKs3mQvU4iqwCnDdrDgsAnwavFXiSfyGvueVhTCwXgJ |      3 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 7WXJa5nS8duYZKusEqXC69vE4KM7jXXx78otV2FWA9Vc |  33051766113346930 |          9 | 2ME5GWroyeotDQ5PyLEwfmFP3V7gewxX49c42vkzZmtZ |      4 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 33fiKjRqsuoUgpBLU4oXSWC74Zr68TQG8ZQUuJ1rEyj5 |  20933512696228332 |          9 | DM3UNK8jdsKgFr9vxBX2xYW1ycDoGbPvZLPwFoFhap1A |      5 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 8TAjH1qyGG1jvGuycHURxXt8gmhFVMQvcTZ85UsQPjrz |  19867515045576830 |          9 | EL2o8mgubbqM5tHM16NaUuFqvpE68BcVNReTS5mmn2eJ |      6 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| ESdgfw1P72SdXzCUda4FV7afkw2mCMmGBMr9XC4XRCLs |  18526352056448736 |          9 | GNjGu3XJ78VnD7HCNwcn8WRoctNqSy8atCQtwmMM3tFj |      7 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 8yX1WySAsctPHBCfv1hXtGLesBBesGs7opwdCUDtTYc1 |  18433099894771468 |          9 | 3yQPiZqx8zAbbawRKkWMTyfiFyg95VKzJUJHqiWq4RX1 |      8 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| GYZC29Qr6dg1ha7D1mzcCa7mqzevhs8nYcaRha9Dx1Ex |  18260149380391188 |          9 | 2iFj4bfyrUL1A82mwjnCQBQSFDW8QR13SfovYxRro2YX |      9 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| CrqEJMs95NnpJkKrUNLF11tN5kJR6uLR1PpA6eUcHsCi |  16592267338262876 |          9 | MystPfUKaCZcjPiTvhYYJ66RJr4i6Az5BN3FLwu4Gae  |     10 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+
+Top owners of token: 4w5zmFr8C4MxqtXPs3SiwTwM5xM6KG6Z7zsyhoAppump
+
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| Address                                      |             Amount |   Decimals | Owner                                        |   Rank |
++==============================================+====================+============+==============================================+========+
+| eTyvzbaTTYtXAtJYsqHyKDpMfzTmfBPMBS5wdBx5xGa  | 552965381241417600 |          9 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| H793z8BNCWPQcQs92oJ9TbsUfqMCSe7jMdBZxWQYhpfA |  75581595950655550 |          9 | CgfQeJu9nZWwfBxVB1YDSGJizViMaY2SpqPzNskHJcNM |      2 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| HD2Dn8qc6eWPPkoSwAptaDGmGhy9FBtLkcWcJSdPS47S |  51514626154264420 |          9 | 4zMBDmmAwYc6W7c9w7SMze7JeDFn6nX88wtxLbiozk3u |      3 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| DAkSsGE3iu5nv3idWiYeHkuwp72aFMP7Aa8oW8psewXv |  45177300352662520 |          9 | CbQucbkNfTUwLmd4JWMfrD6HMboY6kQEN5t4acCF8qyz |      4 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 4FBTgcmxxYjsGXFSVuapYYGrRpimsbtN9DEw7jqPVvpi |  18523935001595430 |          9 | 527DXDysGPWv8K8WDJzeJWosPSLMafRpYYnndM25DzUz |      5 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| BGztgF7bfrU9zDyHVZNef7jG4kqHRheue3dxZYosZNCc |  16796990277366316 |          9 | G8QJj9CnyLiwf6XHQdSLKDjFJP7rvjEwaztnjdqL5Wku |      6 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 6Za7n81ryaJMRdEqmLngGKq9XFFmwRU1UpLx6fgoFXCQ |  16007170627204534 |          9 | FLJ4oBrR8jbDfDmpD6bdxkhf4SxXAuM5WbUFTeoA7ckj |      7 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| Fir3k1NLyEP7z12ajvLt1SfPQRr8yBjh3ExJVcvCGkBG |  14904085928934644 |          9 | HPkVwCoqk68PRpLQRJ8KhAP1kFRhpVoaPna9oCktEeF8 |      8 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| AAbnDJSJTAZPRfXEEpRhBrwZ6xhTorSKvcXQN7narM3B |  14771496214768828 |          9 | 8SjTC4XAoRYTZU9EfADRrrAJDvcW2RPLC8CHPcLufYDv |      9 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| EStQ98ZHXaXXpWzmpTMAuCPk7XfsnHEYC5WGeJLrLM7r |  12410989199931368 |          9 | Efq8PTCda5uqqNqostLvY1jb7U4PWJLyvPexZT6XK7sN |     10 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+
+Top owners of token: FKmHAP9EA2FcjBLv2oaRN3jSuwz7ZhpE8wZGbhCVLZW4
 
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
 | Address                                      |          Amount |   Decimals | Owner                                        |   Rank |
 +==============================================+=================+============+==============================================+========+
-| F9VqxmmqaDf7FXh4rsFkBWhCZbPAnUUY9MmHTo5NoyjD | 501139032780878 |          6 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
+| 5EVhSQUixkLu5zGZm9rCqMtF7udM36SfVT3VQ2pQXSm5 | 796839697782551 |          6 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
-| BDuewAJkjCMiwTSLq212UR1ftCLDoQeGthsTvLYUDWNA |  70974461016793 |          6 | DKaW8v166mQ3CH9yuuNnuYiBLf1SEnyo8M2NmR99pRWK |      2 |
+| DuJXnw8CQy8xVJdwMQH8uCKtbzFEdXmgEbeJaCEgqGY3 |  31805508039971 |          6 | 9s8UA77YqxqtYLQCx1KFF2MrVbEeGxa4mp5XF5vayVWr |      2 |
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
-| 54FE7GPETziCvYMVDUXXRXHw9m8GHepYWUVaHnDfuChX |  50000000000000 |          6 | 3kJ6oqUPeDibn7T36mvbRYfodq8nk46M2DEXBSCeY2pF |      3 |
+| 3BFVQHtpAei1z5gBV4oyTefxN5of2stTBu4mXRy5zDUX |  30123728265021 |          6 | SU1au9uheZxzP3DiTwEJWvwFC8APrPzhDsubEYjVsHW  |      3 |
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
-| Ffq1eYoB1BgrKshTs2kLgn6hJtbFaoqcGXzrf5fLZCZV |  50000000000000 |          6 | 9hkr6qYviFF5Uomo9SHVc99vbLR2wgV7vXGC2e1Mq944 |      4 |
+| J9W5fePgJzRc7iQvopM7xnwnNEU3NdDzGdxQLXdowwwh |  20607454657818 |          6 | 8yicgAXVzJJ9Db37purxt6hnkWJuHqnZmHjyARV98s4q |      4 |
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
-| LDPXWLBg2DDXcHk8Kk4RaVVwvURFACbzdGLdKjTahDc  |  36402312029348 |          6 | Bn28s6TetrRRyF18ttMyVWh9WmVPZakG8wxLAvReQmJp |      5 |
+| BmKP4MDuTNSYKUD8bDw6mGGWGmpEhdps3jhixUcWnmgk |  15367931743467 |          6 | GbHiQoRQJ66MMizo7nfah2HhK8WPFbTbNmNJ1tGAmzYc |      5 |
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
-| 8T6B5J4bXBv5uw6ZUoxE3SFRnDeeGdU2HSedwZ64JypE |  31923745217846 |          6 | BA3W9GavWU5mRaUT6U7cZPnYfGMjKYn5fkKtXt5sk56j |      6 |
+| 2W1voLfdt2iZ1vpSGLmwAHRBfbc4zyfHcAWn6drYDAGk |  12711795676845 |          6 | 6CHWWC9ta6X5KDgod2R12GdqFxyiH9NBCLGHbpbBrkjQ |      6 |
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
-| EeJoMyM2wcsYSohCcA6atqwCqnkaQwExqP16ARTrHcnj |  29451032388998 |          6 | 8N7CsL2kVVx8YrPyHHFWMmKLHoDyPnytMat5THeVzPxF |      7 |
+| 4n26getD8Taz6esKmTnJavMDRkUz5upipU87C8GuF5o3 |  10464911000000 |          6 | 2vkirPVgZNsYRzXDuAe3SeDSTFqmmGLW1sdy6FVWDykJ |      7 |
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
-| B9cuLhjjbfEum3qKZq8nFJkZgz8S4AefhVHvufqc89fk |  20660806957681 |          6 | FTBGnPAbJUapBGHV7qcegDiy1LV2dSLCC9fFaCog7hKi |      8 |
+| 3PV7xwVRRnFECPr6WwbUfjQkgm2DMU236kZRADcSgFyH |  10130648000000 |          6 | 6YqBZczWEuGDP8xHBrkiPnkTzpaxGAJbzqbfczrByEu9 |      8 |
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
-| 8Z3DBMBQon9ZbN4uvy4X4RKxPZTKuSzrVfebkeyazdps |  18482331447882 |          6 | C1BvdFT66b6MWSbfDDMmJdMbYwyoPo5TPs2kyasFxJqc |      9 |
+| Ct3MdNjgRVVtTo3FZGQPnAi8Fz6fmhMSQzpS5GaW44TW |   9795720000000 |          6 | 4JZDpm7GvACApHXCGMoukp8J1SryYqGspcDjMZzzhyEa |      9 |
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
-| Fe2kfniYMqg7K3agPTo3xYFfNx2WYyirVkepLEwsoPn1 |  14711277731539 |          6 | 2NT64A8kenMtuRyLNhuzswhgJMujgiRmZKoakDvNFvGj |     10 |
+| 6v3Zp3w7rW1MHD56aq8yPnCxHBpctdHjxChrrZjyLwHN |   9058320000000 |          6 | 2Z4WqpDBKettAfg9nMRygKcL3quTXBW7NsP5izi5ZoLD |     10 |
 +----------------------------------------------+-----------------+------------+----------------------------------------------+--------+
-
-Top owners of token: 5DQSDg6SGkbsbykq4mQstpcL4d5raEHc6rY7LgBwpump
-
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| Address                                      |         Amount |   Decimals | Owner                                        |   Rank |
-+==============================================+================+============+==============================================+========+
-| 4cv4e8DjDF9VaoBfFNUw5cv68FPA9ic8i4ETboEdNuPu | 30261822152188 |          6 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| ELJYuXsZA5tE7NhJPEzzwFfHiaYVHCWhv9s1BB6vpQbB | 15731291534964 |          6 | 8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd |      2 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 6rfPZXM5nB1DVk8421PyNJk59apdJnXSycuFYaB4v1WV | 13632479362762 |          6 | 2GRzmYg6Joqi596j2DVnbWPTAQZ8oJYRt5VMw9ifUBnG |      3 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 8tiWakyrPfYZSLN9Tvgfi3moGdcZPbU2W5gjg1uS6tXF | 11609242191421 |          6 | 8T9mnATndr2aUw9r28uTtxKSh2JfqJwrctW6XaWPHTgy |      4 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| AgKxv34xjTZnBaXDG6xcnr3yLSLrvSpSetpDPVZYKKH2 | 11258481068370 |          6 | FtfNjm2sXJ6erF8GNCJjpQ4eUBFAHph5tjE6PQfLaQ4w |      5 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| H3QC1vPWjGWrborW6dMtk3AvT8dU3NA8Frh2sy3WTBSB | 11176980591589 |          6 | F5JJHNcsua4FovHKA4LSbGF41MkQ5UatwcG6fNS191wB |      6 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| G9dc81f4ntdRKRVU2ig7YVsMBbpbVFy4c2iCCtChZ9c7 | 10725000000000 |          6 | 6yT3SRWTq5AuBRyM58yWUnjw76tb3tQDKf9GWLt7Gtds |      7 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| BHGVhDWZHGfBpUg6HEqgNYHokvbcC1dHr3ShZhA2dtz  | 10160634176317 |          6 | DDiNynk9wH8VjXKTyXBiFf46GTJSs3Ldg3HQ8uM4PsZA |      8 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| CHwTNRMgVmKAK3chCeokfLpnRW8cr5BYRyvLnxhqWeRj | 10077572124379 |          6 | GxVyr6w76KeCyN6gdX3tk7CRFERV2CdDnBR2aUMPTNrP |      9 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| mdZqnjbhQKxX76VyvaskbNaag527afjfmEp7Fy5r6o3  | 10045166902364 |          6 | F6PyZpYjseLWgyrqSKpHkucTJk4eX6e6sWVJJnxwuH8U |     10 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-
-Top owners of token: G85Kr4dnR3M1uymyjfyAWLNtzf7hFELQsmwwwt73dYvA
-
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| Address                                      |         Amount |   Decimals | Owner                                        |   Rank |
-+==============================================+================+============+==============================================+========+
-| HTZ2hFEFCXjA3hQ7DaPJeAYDSBpxkMSg7d7rgyT2gUS  | 79731967426697 |          6 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| GGgZiEUmFZLecxCMwxRyXYfwLiq2kwSmhaPTR6jzeSdP | 23064373667202 |          6 | 6dCtQfqTLdtMsBWhyUaXsWBGsNWPSCJWZo2avTuzS2xf |      2 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| DFHmFo4f6cCvaZtTtEwj4wWctpTPD1Lt1Gw5Cjsemhgi | 17481603031013 |          6 | 92gZktMk7uh3oVZZ4MyQcYJy6NJkjHiQb7CFw47nARTj |      3 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 74kHYBFYHoitQjGFfVcPHiEsazyRV9eKni3uwcSg13sr | 13951007475544 |          6 | AUN3tiXdyaWdpcyHu9HYY5ysYtVBH1p5hqQU9WJx6ZGU |      4 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| DNYZFRDov1DDjY6RtfajUg3CmVXDrTaSjrUtgLZQKuMu | 11280641233030 |          6 | BX1KmKhh2gDS4qrB4rAqL28piQRKTYmtEnyvzm2NvvUd |      5 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| FttUkcpWHaFxBi6mEDeTk7WPjtFkG3XXiXnn7PgsYDaR | 11198320322806 |          6 | G8AJCLJGpSe7GH4NCFrcUBe6ycE65ueKHhXVC2AZvtFA |      6 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| CQQu8UNuhR5fwS2noDntMuWB7SppknXf27E1xedzFpvK | 10585976829359 |          6 | 8M91wigLMAfvxvjvCLk3t2Ksmg6GJCgJyUZvQaeAYMp3 |      7 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 8ChHekNUex8iS6TaLSn2TsoXpEy2sMey3rke2b3y5TxA | 10000000000000 |          6 | Bn2feGEqhTLqEDsMohSpfqrij8jwxyyK2fg3re2QD9r8 |      8 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 6jtFL5qSFNfgKWrmVoBcx5nR2F3gp68DijAyXEhrNXbu |  9574373730302 |          6 | 66axtYtsEJQMxtdaMMh7d2SMPqBEkUW4jHgfTN6f49nL |      9 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 4e6wFYwGJXvbpu2cFvBA86aATrPHkU9P9uF9ZLPJZ4Tx |  8793283996457 |          6 | 9VgpBsethLTMuyvXgipaAr4hWTGpwLRHoXw31E9C7Jxw |     10 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
 
 Top owners of token: AUdUEc98MGfEHJiJfCgMaW8gKdcfNDio8BFzGKBwjztC
 
@@ -137,47 +189,73 @@ Top owners of token: AUdUEc98MGfEHJiJfCgMaW8gKdcfNDio8BFzGKBwjztC
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
 | 4Kzft1LDuqDuEsKFQnrEF9eVo9ZvjvBhwjzwNAg8JpxS | 12527913824426298 |          4 | EHjaTQUJ6N81omidP29jNkkcvNWL7zJ4WLMxsNqh5fbY |      2 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| wcmMSXYVwogvEG5tuUWmDkkWKFAJ89xB4GXezZzo5GJ  |  8875138047516027 |          4 | GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL |      3 |
+| wcmMSXYVwogvEG5tuUWmDkkWKFAJ89xB4GXezZzo5GJ  |  9307972481004120 |          4 | GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL |      3 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| 9rfPTnEsnmbPjo4CRDyzrCiHosmoxWw5M59TXFeLo5RS |  4923228005955897 |          4 | 7fB98oB2xcLjssd3BM87PB11WoyBbsDUYyqyo31Eezto |      4 |
+| 1zAGxGGzjxrSqZ9wubugevrAGGDwVJo4zJnkHG2UMBA  |  3422654282826309 |          4 | 9hgPjBuWp28Zy8H9Kx1Dj7GtSTP4JNhhCjnA7qva3KYQ |      4 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| 4mwxvZVN9ph9ar3ko1ZWQPYiL8hsCvNMe6ubQUB6HQx9 |  3179714187483015 |          4 | 8Vk4G7Rf3HvKyp6bWArXH3cR25FERZVrKypPJqfWb675 |      5 |
+| 9rfPTnEsnmbPjo4CRDyzrCiHosmoxWw5M59TXFeLo5RS |  2965168389756923 |          4 | 7fB98oB2xcLjssd3BM87PB11WoyBbsDUYyqyo31Eezto |      5 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| 6iEvZAQ8bq7qmnopCkKjaR8batA9JcfJhAD7B3k14KvF |  3000000000000000 |          4 | CkRz9aN7UJ9YrpQ2ciEtdjXUPm67vD1na8sGm4z35ZN  |      6 |
+| D5Luz2cZxUMFPbGrsayF7DAcXJ4HtHEhUmhvYc63dqgX |  2691122420830810 |          4 | GdMo9YZtxMqzRKaL3gD6Y53EBUQLjCAz7icL57N2YFhr |      6 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| Dm8popDUbNidNjUZj2VnGoNeGTvAyyrksWf4Mu3qHayG |  3000000000000000 |          4 | 2L9dFFh9MUQACHUudS7Ur6nuY1W5ucYLR6PWQDGxg6ac |      7 |
+| EEHw11Z8ehb1NgV74unFjZF8ao3ewLH2w69aLFBjrYNk |  2328301168985571 |          4 | DB6on2zaocMiTD5KaYasqzg6WzDEw492qSbzqGjLzWt5 |      7 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| D5Luz2cZxUMFPbGrsayF7DAcXJ4HtHEhUmhvYc63dqgX |  2691122420830810 |          4 | GdMo9YZtxMqzRKaL3gD6Y53EBUQLjCAz7icL57N2YFhr |      8 |
+| 2wwBnoKTUduN4d4ynhYRLdChVSeBfe6Mmzp7yujDLusf |  2092369597618660 |          4 | sRpjCUXhsQNcRWqBpHdAdJYw67PQ7pUcoTpj95sxA2J  |      8 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| EEHw11Z8ehb1NgV74unFjZF8ao3ewLH2w69aLFBjrYNk |  2328301168985571 |          4 | DB6on2zaocMiTD5KaYasqzg6WzDEw492qSbzqGjLzWt5 |      9 |
+| 9qyv3UNSfMbkpHEXSStxa3n9eLbfdYWMPpVBSK1wRSdW |  2013514713472787 |          4 | FyCaxdqbpFrXzjVJeNfxL3s17m5AumP5zcJz3G5Q6MYR |      9 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| 2wwBnoKTUduN4d4ynhYRLdChVSeBfe6Mmzp7yujDLusf |  2092369597618660 |          4 | sRpjCUXhsQNcRWqBpHdAdJYw67PQ7pUcoTpj95sxA2J  |     10 |
+| HAoQzqcz6MiPe8GknnExDFQips58QLmWnfg4uLQXHp48 |  2000000000000000 |          4 | HKxJ8RXDNq6CmApKJzbCNpvtstQ5KoFALj9G31wSmK6k |     10 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
 
-Top owners of token: GLPdQwGtjcynj3RLraenPeR9v1REnpdyuciPBpVipump
+Top owners of token: 3QPiinFaKeBkv28boLjn9rv1ci6WEd6VXAfmNHz8XEeJ
+
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| Address                                      |             Amount |   Decimals | Owner                                        |   Rank |
++==============================================+====================+============+==============================================+========+
+| EkegP8o5jSdhHYQXiYGxZpkYCpraV3UHVZN7uXn8J6Yf | 205029960357538370 |          2 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| BFJXi4Fp34rgQtdEFDzqexYbn1FG2j6israUPSjbozH  |  73100713702272200 |          2 | 7fB98oB2xcLjssd3BM87PB11WoyBbsDUYyqyo31Eezto |      2 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| Bwx5ADTz1dBAcMYNAJo3hkXH2NYg3YvKuMvgeZAGxtc7 |  46151360441824696 |          2 | FiemLR9G1VvV2jsaRFtABjQezi3RcsbXncF6Sez5kqqc |      3 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 4w88T6GqHdeeAGjXkHtMgPJY9qjj19RQ87t8TsMyWEqw |  38177438020585700 |          2 | a8aW3bEzvkGVQqaKAGkpe48h7PxSsPMoyouKmMMdxxR  |      4 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 5BbHpZ8SC6WYztuxsPQ8K6uQvDjb7LqoiYuQPHzWStr4 |  37905324570404300 |          2 | BoCRHYH75L1QvPLzfh155BBhF7XCMjot8nu65T5UCdbh |      5 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| AS5x7RX2YymWS5XSV51NPE6VJ6vzT87w9rAUD9YehS7a |  37829813626594400 |          2 | G7BFXUBAFpxYM2u6rUZaCfJ7JDw2aUaXp9z4HZJS8W7x |      6 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| EM3vwAJ3Q3fPs8zS4Zxix1mN6nc3KtoJj22FWDxZsM5a |  37446863667780700 |          2 | 3c56Po1TKkn7wyvDmMKnoiv6apr2kihuNx3eYbpBgbrh |      7 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| FPhrs1z2CkrJpudKQTiytJo52CFhpg5DEPS5bZ4qdZto |  37003375533721300 |          2 | GiuFuGExn274KcheWkW5oSf2VT8VZUi8Q9Q9wm4ukz3z |      8 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 7XRsNoT7sx3p22PWqWRJ5FCQm6K4ERJyt5aqQoQv22aG |  36962911994810200 |          2 | C37keg8Qeax9DAEtmwn7eYz8frKaBq23X7gCE6eog5WK |      9 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+| 6Efe1oAN4K2eWW457BetJDnLSfw3bHqYmrTGmhXVWdVm |  35658057171508700 |          2 | 7EQrX3poKAt5CFEUgZcG9vdMgJiCCEMU4Gvh3JfgfCQS |     10 |
++----------------------------------------------+--------------------+------------+----------------------------------------------+--------+
+
+Top owners of token: 5DQSDg6SGkbsbykq4mQstpcL4d5raEHc6rY7LgBwpump
 
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
 | Address                                      |         Amount |   Decimals | Owner                                        |   Rank |
 +==============================================+================+============+==============================================+========+
-| 4vWSG8PGk49CEaMr6JsztCBeHpuvqpASXtfLDHi2n3gN | 25653303066853 |          6 | EnEJGqyqYXYrScxspWaVic1PuCY4PoYJTm8BWscerg7n |      1 |
+| 4cv4e8DjDF9VaoBfFNUw5cv68FPA9ic8i4ETboEdNuPu | 36115925227359 |          6 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| HiQLBxVkwbZczAiqX3YX3EJEaZYVLSZaykVfTZ9zFmds | 24237749154603 |          6 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      2 |
+| WDWEEzCbj8X68zRDxLqbLLZRneK3KQTBEEhk1fqsEXp  | 33114881325008 |          6 | 9TD9XQmY2P6BCiKYF6D1H5WggDNVWLWDwrD9SUdxA855 |      2 |
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 36QsYgv721jcB7viwHpyaEiRYpTwsJCr8WNpiTAu6j3u | 17018956726511 |          6 | 3T8MPFqjo8aGW7KoUeBBWSf5GAtG85imDLYcjM3cBRTj |      3 |
+| 6LLQj7TkBadUF9CRW2XbF3oCvtgNFkHA6Hzu6pZDkG9v | 16143100572657 |          6 | EL54MqH4wysAiY8aD2CrTNzgoBJKkJGrYx9nnqJw9xQ7 |      3 |
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 9UKdiUm9b5j8F96U6stwYsNeFmX1pveirebesXrwTgX3 | 11684816058906 |          6 | 5bXd4ad5YxBgn6N1RUZCdP2hJ3nx9qP4LmFDwgBsRrwy |      4 |
+| ELJYuXsZA5tE7NhJPEzzwFfHiaYVHCWhv9s1BB6vpQbB | 15731291534964 |          6 | 8zFZHuSRuDpuAR7J6FzwyF3vKNx4CVW3DFHJerQhc7Zd |      4 |
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 34FcSbGJGxFhgW1hbgBo3cfS2bwFg8pZHkrf7nVcXcyp | 10571418472533 |          6 | EZgbZkeiHacq8TNcchvR9Krjd3iUojqzYQvLxVqvnpcr |      5 |
+| 6rfPZXM5nB1DVk8421PyNJk59apdJnXSycuFYaB4v1WV | 15272069434881 |          6 | 2GRzmYg6Joqi596j2DVnbWPTAQZ8oJYRt5VMw9ifUBnG |      5 |
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| EMpJDGA7q9Lp72YoPoj1dTcTwxthCqoG2Vcy6XQqYPA2 | 10485020015848 |          6 | Skf1QLWzauVMys5WzbW2ZXWmWHc6hRamkT1JNwkkJW4  |      6 |
+| BHGVhDWZHGfBpUg6HEqgNYHokvbcC1dHr3ShZhA2dtz  | 14993210212489 |          6 | DDiNynk9wH8VjXKTyXBiFf46GTJSs3Ldg3HQ8uM4PsZA |      6 |
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 7SdQtrTGksF9sZjg96FVNxSZvawHq1r6i3zxuBqqKTTs | 10000647195816 |          6 | 6rFWL8iHnRd7qXDbwDNyLh328QPP1WCm9QE5r1SfjY19 |      7 |
+| DDaL866yPhsJHmiMJzoFZU5CMszZAm4AbVbutZurLgV7 | 14188003795949 |          6 | ASTyfSima4LLAdDgoFGkgqoKowG1LZFDr9fAQrg7iaJZ |      7 |
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| qnaeKEA45UMBGeYx1aepUj2gnj68DSeD9E79eUzsupJ  |  9838638440620 |          6 | AAfnZi7MP5kcfRDRhxRgydbvhEgdc19aWtum3Wnw3Vwi |      8 |
+| CDtSXiDdADZHTNttgugY9HXnJ68CVUxhyq3hLun9rgeR | 12569841774607 |          6 | GDqZQFbGsiZg7tHnBvpcjum6PDnV5ZuzohfJGTExWRT  |      8 |
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| CLwBJPAhb8ohjuRjHZDtg7gsun34xpCucTY1R3HzJHWw |  8998463854678 |          6 | HdtGX2D1bMTS1QPZGcfdezEUu1HUnZKktmRW9RHvhwsC |      9 |
+| AgKxv34xjTZnBaXDG6xcnr3yLSLrvSpSetpDPVZYKKH2 | 11953105418565 |          6 | FtfNjm2sXJ6erF8GNCJjpQ4eUBFAHph5tjE6PQfLaQ4w |      9 |
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 7ZrnPAZU3w5hbfgMUabqHrPdpR9QxARL6vQRTS6kMFvc |  7963288814446 |          6 | DZwsJ8dDRwQ4RPs9hNuFLQhXjUv9UbEkK7JSY3dYm29t |     10 |
+| 8tiWakyrPfYZSLN9Tvgfi3moGdcZPbU2W5gjg1uS6tXF | 11609242191421 |          6 | 8T9mnATndr2aUw9r28uTtxKSh2JfqJwrctW6XaWPHTgy |     10 |
 +----------------------------------------------+----------------+------------+----------------------------------------------+--------+
 
 Top owners of token: 2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv
@@ -185,13 +263,13 @@ Top owners of token: 2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
 | Address                                      |            Amount |   Decimals | Owner                                        |   Rank |
 +==============================================+===================+============+==============================================+========+
-| Cdc77Y1G1JyeXB6WrJJG7RBvUmNK4Mxp3ojGumRT5ovn | 19769096211000000 |          6 | 3HA76bpwHuST6Uo9BouJ4A5GpAiDuerr7QBenUqbXZAL |      1 |
+| Cdc77Y1G1JyeXB6WrJJG7RBvUmNK4Mxp3ojGumRT5ovn | 19498187473000000 |          6 | 3HA76bpwHuST6Uo9BouJ4A5GpAiDuerr7QBenUqbXZAL |      1 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
 | FJhg2bE1PZEedxpqpXZpJKCfF2m9Z6n9MtLSe2zNo4XY | 12504048353000000 |          6 | GcEXZEUhbK4KyFV7B7q28Zh7PKzGsC3oqgjvGRLaZJZu |      2 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
 | 9L8T8MhH4jDafq5qSKHshaVfGoySoSDTbsDU2Jc6a16T | 11804810828090000 |          6 | GziA3ZgkmnUcK9vuscnDpzLTcpHTSnmyQ6JwPKP5oSkR |      3 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| 45xJxTULWEBTRcpQDMGZNHUvpzXv5An8fZZ2SjCEqntW |  7818500796584227 |          6 | 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9 |      4 |
+| 45xJxTULWEBTRcpQDMGZNHUvpzXv5An8fZZ2SjCEqntW |  7429648775172697 |          6 | 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9 |      4 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
 | 7Xtnv9AufaLY9aCex98tJfL28hAvaXcYZAaLq3rr7FzE |  4666666667000000 |          6 | XqDwNVzNKQoMrofeDz8vMUdCGs5zqrjhbq8K1c21gCm  |      5 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
@@ -201,88 +279,10 @@ Top owners of token: 2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
 | THP3kKxgTvKwtF5NUuyp5NDB1U9WH59ocz5TZtPKmPZ  |  1666666667000000 |          6 | VYXUZbPGzTnkUuWXyPf5H4Q6bLv2xBrSQkoUuNCXmWN  |      8 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| 4TNFEfDjazZDRHEHcRggKjFBd51QmsYRxcUoYcbiTqvx |  1140745663825020 |          6 | AC5RDfQFmDS1deWZos921JfqscXdByf8BKHs5ACWjtW2 |      9 |
+| 4TNFEfDjazZDRHEHcRggKjFBd51QmsYRxcUoYcbiTqvx |  1205089332692709 |          6 | AC5RDfQFmDS1deWZos921JfqscXdByf8BKHs5ACWjtW2 |      9 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-| DmKRKtJGmStt4Jh2DquGrqNNvx19Bdtshgs12HnYGHJW |   874052429527607 |          6 | 9un5wqE3q4oCjyrDkwsdD48KteCJitQX5978Vh7KKxHo |     10 |
+| A1v8ehbAwNrGMKZQ2X81fjXWb4PN8Pzd5GpEcpg5ks6c |   848164442152129 |          6 | HoTdBjGcRhhti93EeFBwYnV8NCiZZ7wqQME3yqwYL8YZ |     10 |
 +----------------------------------------------+-------------------+------------+----------------------------------------------+--------+
-
-Top owners of token: yfVhKobAgpFt3cP7fcbqbY8UdRHz2XRHw8ibPpBpump
-
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| Address                                      |         Amount |   Decimals | Owner                                        |   Rank |
-+==============================================+================+============+==============================================+========+
-| 39e6UWca4h2Z7U6HPkjMRGyJ2epvFrmGQoQu5Sw9brZw | 60348877936257 |          6 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      1 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| HWtv2HeHTKPvBMNqRcBvxu8gpcEviccjUwrzLot16F6T | 29416189494700 |          6 | BCjPDJPZcCgaPGDuex2JdXEUH28ALpTAKKVeh2J6LfCa |      2 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 3hCFvCFbz4go4kYsa11LcafJAk3QQqzQiEN8eTr5MQXX | 27506319992686 |          6 | 47JHi7KdV4kGWbPCVV9kG6Ge5hugmg9hrzW13fKpEJ8P |      3 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| GkmGduQ5Y4CL6wAkKsT1e2wZupkmYetMjYnLQ4wVhH3i | 26082966102839 |          6 | 551ExUaHccgcCqU6tAaaCX2pJduagoozwRJcB1UJTgNh |      4 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 6hQAiC8rzjnPvoHodhUSYwhG4emfK28oGf9iVgveBM5z | 23813370191343 |          6 | 5HXNpykRWSTV3ktMMbiJrYPnw9nT6oc1fTLKXX6LbRFu |      5 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 5yreZ2ePkPc2vpbtkvCmhrqTwCS9xVe7pGUq9yo3USvg | 13482340539929 |          6 | 5Ap5NuocioSgTvTBn1wpfxz3BbMBeEis4ky3jwfLDcgf |      6 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| sDSDKDEAZukCtdtrHY5g8jRZkDDxGMNK2CXBTzjVZXx  | 13412382216027 |          6 | FGXPRmfSXkVqgwsqD9ijJ6LoPyM9ExfdEgKnvhysKTKV |      7 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| CSYidjignwogoPdZux3xyyGgN2vC3EDUMV4o8XjhDfKF | 13177024737892 |          6 | AWRFsk5UF3v2kFMaVsJLkroPRNQ4XhYfUNDDSKRNzVAy |      8 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 87iS72epjUS3hnTEuCz239jVYY87Hwa2DxzNVTqmmkHA | 11618599805037 |          6 | 37VRGM8PHHDjb6tmshxRkKkc4jyuZKopEmLNYbHKziBL |      9 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| CRRAatii1VX8Mrae2xJ5qHxgHu3BA9MBgbvcnuPkbRkG | 10450625846702 |          6 | 8PTubR4YmiPfuwz1K8VJ5UNa1ASjZdzzpiepgnPnjcfG |     10 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-
-Top owners of token: So11111111111111111111111111111111111111112
-
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-| Address                                      |           Amount |   Decimals | Owner                                        |   Rank |
-+==============================================+==================+============+==============================================+========+
-| BUvduFTd2sWFagCunBPLupG8fBTJqweLw9DuhruNFSCm | 4182045753011844 |          9 | AVzP2GeRmqGphJsMxWoqjpUifPpCret7LqWhD8NWQK49 |      1 |
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-| 2nQNF8F9LLWMqdjymiLK2u8HoHMvYa4orCXsp3w65fQ2 |  720194855941160 |          9 | GugU1tP7doLeTw9hQP51xRJyS8Da1fWxuiy2rVrnMD2m |      2 |
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-| GafNuUXj9rxGLn4y79dPu6MHSuPWeJR6UtTWuexpGh3U |  261852981696123 |          9 | 9DrvZvyWh1HuAoZxvYWMvkf2XCzryCpGgHqrMjyDWpmo |      3 |
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-| 8UviNr47S8eL6J3WfDxMRa3hvLta1VDJwNWqsDgtN3Cv |  229872223468407 |          9 | DdZR6zRFiUt4S5mg7AV1uKB2z1f1WzcNYCaTEEWPAuby |      4 |
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-| DfYCNezifxAEsQbAJ1b3j6PX3JVBe8fu11KBhxsbw5d2 |  191148425030857 |          9 | JCNCMFXo5M5qwUPg2Utu1u6YWp3MbygxqBsBeXXJfrw  |      5 |
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-| 5Zumc1SYPmQ89nqwXqzogeuhdJ85iEMpSk35A4P87pmD |  180242921592852 |          9 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      6 |
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-| 7YttLkHDoNj9wyDur5pM1ejNaAvT9X4eqaYcHQqtj2G5 |  177766384294176 |          9 | GThUX1Atko4tqhN2NaiTazWSeFWMuiUvfFnyJyUghFMJ |      7 |
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-| 2eicbpitfJXDwqCuFAmPgDP7t2oUotnAzbGzRKLMgSLe |  160409531868966 |          9 | DD3AeAssFvjqTvRTrRAtpfjkBF8FpVKnFuwnMLN9haXD |      8 |
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-| F7tcS67EfP4bBJhWLxCk6ZmPVcsmPnJvPLQcDw5eeR67 |  153341663983399 |          9 | Hp53XEtt4S8SvPCXarsLSdGfZBuUr5mMmZmX2DRNXQKp |      9 |
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-| GuXKCb9ibwSeRSdSYqaCL3dcxBZ7jJcj6Y7rDwzmUBu9 |  132726613595513 |          9 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |     10 |
-+----------------------------------------------+------------------+------------+----------------------------------------------+--------+
-
-Top owners of token: AaWVpk6eZbgBfVbq1UfXw3EXBmAvw4QXov1xHuG7pump
-
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| Address                                      |         Amount |   Decimals | Owner                                        |   Rank |
-+==============================================+================+============+==============================================+========+
-| 3eLReRvZr5fZQ6thwyTDBTsdoDpzMtRnqYWBPEz3pH9b | 48512674849968 |          6 | kQdJVZvix2BPCz2i46ErUPk2a74Uf37QZL5jsRdAD8y  |      1 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| eRB3hYU6uaw7z2GksotwYmA1SC6CUuZmrXVmUqGXJAr  | 34275794143126 |          6 | 5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1 |      2 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 3Nac3UhSMfB4WYsvqxzkn61kTDbLAbN5m4S3Q1LcSzdc | 20006869479882 |          6 | 23khDh7xdfa2VZGtAyX7uhMJu1eKJKvd5tXqYZuso6rZ |      3 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 3Jk8JHA8FybijXsdzDHR1sf1Yawb9hhKmJiBncmwa7Gv | 19555909912840 |          6 | 3u3rHKqsSqn69VZ92vybddYiwKdZi6LcjScj3uZTeSHw |      4 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 25JB6Qtua4upjQEz6UdJLV9VNissCx5qbzcd758Uwrnf | 16770379188537 |          6 | AMi9yRUfF8xtgZWYe5jCoihrQTibc5Bg1tTTsXBuWnen |      5 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 3oP2WdGq7iP9rPGWu4sGmapGazRcdPzqLXk62XbD8hct | 13460435927641 |          6 | CDHGy24ZPqcTF83WjoZ3cosozFidggkrv6RHMxsPpQWE |      6 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| BmNfJYDBdAbzCPNxtwdwdrjaTVfp4biPaW1WTQeYBwsu | 13460435927641 |          6 | 9cFnFyyBh3nkoLheAjEmYjshKoRA2a3TdKT4ZX5CRoVM |      7 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| 6RZZr6GsTtPwn79uQxUhPutXoiK8Xpdu4ySa16ywWpFo | 13460435927641 |          6 | 64dod5cJSQ7G9vJwGDjnNUzxWAy76UxvGrdy1uGuFamL |      8 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| GyfaDeLKykxs8fy8K8Ux8faMMUCJZWYFhyu9N8Zj4LVS | 10270805956833 |          6 | HYWo71Wk9PNDe5sBaRKazPnVyGnQDiwgXCFKvgAQ1ENp |      9 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
-| F2nEEEJX4y2aBvorAh8Uw98HmJXioj5aQCcNiJLwQAYb |  9992718923908 |          6 | 39xGf1UKra9jp5EwMCZC1NHdJ7XRyPtjXD1rrjAJpiTF |     10 |
-+----------------------------------------------+----------------+------------+----------------------------------------------+--------+
 
 Tokens for wallet address: 4yCqEknZEJwPngkAaX4F2peVUGGhWB82kwBKK7LHGg1A
 
@@ -291,11 +291,11 @@ Tokens for wallet address: 4yCqEknZEJwPngkAaX4F2peVUGGhWB82kwBKK7LHGg1A
 +==============================================+==============================================+===============+============+
 | oHgnDMVBsRuVTeDfW4tztAZZhg7z4y57uuuDnQKSYi2  | B8q1emW1dKLerpaiLi9n4ZVSCMLaDZUe8T6mPekPpump | 1499161461352 |          6 |
 +----------------------------------------------+----------------------------------------------+---------------+------------+
-| 45SEnDNACaTxwZ7j5cTMVxyBHenYs7R5MmNmVLsd2UVp | FkhDua761MF8oDXEfiCKsmMm2v45aFNZCTnKVtrLpump | 1300889462331 |          6 |
-+----------------------------------------------+----------------------------------------------+---------------+------------+
 | 63GJRXCym7wwcGtEEPTwT43GGv7ZB3HfB3somFYgkurK | 6wpStmiXe1gQSsS3ZtoywLFYNzopobpLJcBE3Anbpump |  692418249188 |          6 |
 +----------------------------------------------+----------------------------------------------+---------------+------------+
-| 3Chn4orBh7E8vJVedX3E9mqeRWRhje2ofGMihPaeiJce | 7fKT3nwwaAJbiYjY9HdsoL5eS96QfrXYQrAUEWhBjmyh |  625197124902 |          6 |
+| 3Chn4orBh7E8vJVedX3E9mqeRWRhje2ofGMihPaeiJce | 7fKT3nwwaAJbiYjY9HdsoL5eS96QfrXYQrAUEWhBjmyh |  640262708977 |          6 |
++----------------------------------------------+----------------------------------------------+---------------+------------+
+| DyeKc4DukJXdnPx4YKAukW9jLHr1QWmtDnVYUurazgru | MLoYxeB1Xm4BZyuWLaM3K69LvMSm4TSPXWedF9Epump  |  602391008169 |          6 |
 +----------------------------------------------+----------------------------------------------+---------------+------------+
 | As5up7NzZ3iwW3FsfApefBUDfxgMF26eMydq8Nj8RV1F | CG5xuyKQTBPxYF4AHwLsMYKuwncpP7D8ZEQKdGw3pump |  512178999386 |          6 |
 +----------------------------------------------+----------------------------------------------+---------------+------------+
@@ -307,6 +307,6 @@ Tokens for wallet address: 4yCqEknZEJwPngkAaX4F2peVUGGhWB82kwBKK7LHGg1A
 +----------------------------------------------+----------------------------------------------+---------------+------------+
 | 9ssEBbPRZJnyFLofaWuaV1oHYKE4QLLhUJWS5vEyY7pM | Cnvw36ysNdmx4TTyY4QGqADK83eJNZMqfwhViuExpump |     200000000 |          6 |
 +----------------------------------------------+----------------------------------------------+---------------+------------+
-| EPtzoDFYYJsJYuqSgDPgrKG7BxaJm5GU7P3px9AmovaH | 3pEyfBDmKjTDw3HNVX9EaLXs7dwS7WdrYxpcFjk5pump |             0 |          6 |
+| CUmR7vAaZmcGewZqEXCWY5sgHkpLTALKdUPrMgpofJNK | CNfnbBmwLE7sPtMj86GL8j7CqZZAHS8anzyuMGxapump |             0 |          6 |
 +----------------------------------------------+----------------------------------------------+---------------+------------+
 
