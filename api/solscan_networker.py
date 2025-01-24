@@ -41,8 +41,11 @@ class SolscanNetworker:
 
         try:
 
+            print(f"Fetching tokens for wallet address: {address}")
+
             response = self.base_networker.get(
                 "account/token-accounts", params=params, headers=HEADERS)
+
             tokens_response = json.loads(json.dumps(response["data"]))
             tokens = [Token.from_dict(token) for token in tokens_response]
 
@@ -77,10 +80,20 @@ class SolscanNetworker:
 
         try:
 
+            print(f"Fetching top owners of token: {token}")
+
             response = self.base_networker.get(
                 "token/holders", params=params, headers=HEADERS)
+
+            # print("Response: ", response)
+
             response_data = json.loads(json.dumps(response["data"]["items"]))
+
+            # print("Response data: ", response_data)
+
             owners = [Owner.from_dict(owner) for owner in response_data]
+
+            # print("Owners: ", owners)
 
             return owners
 

@@ -1,7 +1,6 @@
 from utils.constants import TELEGRAM_API_ID, TELEGRAM_API_HASH
 
 from telethon import TelegramClient, events
-import logging
 
 
 class TgClient:

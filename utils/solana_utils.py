@@ -35,3 +35,11 @@ class SolanaUtils:
             match for match in matches if SolanaUtils.is_valid_solana_address(match)]
 
         return valid_addresses
+
+    @staticmethod
+    def find_pump_fun_addresses_in_string(input_string):
+        print(input_string)
+        print("Finding pump fun addresses in string")
+        pattern = r'\b.{40}pump\b'
+        matches = re.findall(pattern, input_string)
+        return matches

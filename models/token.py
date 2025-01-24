@@ -31,6 +31,10 @@ class Token:
             symbol=data["symbol"],
         )
 
+    def __repr__(self):
+        return (f"Token(account='{self.account}', address='{self.address}', amount={self.amount}, "
+                f"decimals={self.decimals}, owner='{self.owner}', name='{self.name}', symbol='{self.symbol}')")
+
     def set_name(self, name: str):
         self.name = name
 
