@@ -3,7 +3,9 @@ import json
 from api.base_networker import BaseNetworker
 from models.owner import Owner
 from models.token import Token
+from models.transfer import Transfer
 from utils.constants import SOLSCAN_BASE_URL
+from datetime import datetime
 
 HEADERS = {"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjcmVhdGVkQXQiOjE3MzQ5MTU1NTcxNjUsImVtYWlsIjoicm1hdGh0cmFkaW5nQGdtYWlsLmNvbSIsImFjdGlvbiI6InRva2VuLWFwaSIsImFwaVZlcnNpb24iOiJ2MiIsImlhdCI6MTczNDkxNTU1N30.UmkCER3DAtMR2HPn535Dw9CHz6N1e1gAKjZG2wxh3GM"}
 
@@ -97,6 +99,46 @@ class SolscanNetworker:
 
             return owners
 
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return None
+
+    def getCurrentPriceForToken(self, address: str):
+
+        # Get the current date
+        current_date = datetime.now()
+
+        # Format the date as YYYYMMDD
+        formatted_date = current_date.strftime('%Y%m%d')
+
+        params = {
+            "address": address
+            # "date": [formatted_date]
+        }
+
+        try:
+            response = self.base_networker.get(
+                "token/price", params=params, headers=HEADERS)
+
+            print("Response: ", response)
+            return response
+
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            return None
+
+    def getTransfers(self, address: str, page_size: int):
+        params = {
+            "address": address,
+            "page_size": page_size
+        }
+        try:
+            response = self.base_networker.get(
+                "account/transfer", params=params, headers=HEADERS)
+            # print(response)
+            transfers = [Transfer.from_dict(transfer)
+                         for transfer in response["data"]]
+            return transfers
         except Exception as e:
             print(f"An error occurred: {e}")
             return None

@@ -3,6 +3,8 @@ from utils.solana_utils import SolanaUtils
 from utils.printer import PrintingUtils
 from clients.telegram_client import TgClient
 from api.solscan_networker import SolscanNetworker
+from operations.trading_session import TailTradingSession
+from datetime import datetime
 # from api.bitquery_networker import BitQueryNetworker
 import asyncio
 import logging
@@ -79,5 +81,41 @@ async def main():
     #     print(address)
 
 
+def pullToken():
+    solscan_networker = SolscanNetworker()
+    tokens = solscan_networker.getTokensForWalletAddress(
+        "3jgub3P9KP3XA9Dwh7XpKu35BiQNTZZXbPmfBAJMsroL")
+    print("Tokens: ", tokens)
+
+    for token in tokens:
+        print("Getting token price for:", token.address)
+        current_price = solscan_networker.getCurrentPriceForToken(
+            token.address)
+        print(current_price)
+
+
+def getTransfers():
+    solscan_networker = SolscanNetworker()
+    transfers = solscan_networker.getTransfers(
+        "3jgub3P9KP3XA9Dwh7XpKu35BiQNTZZXbPmfBAJMsroL")
+    # print(transfers)
+    for transfer in transfers:
+        print("Token address: ", transfer.token_address,
+              "Block time: ", transfer.block_time,
+              "To address: ", transfer.to_address,
+              "From address: ", transfer.from_address)
+
+
+def demoTradingSession():
+    print("Kicking off trading session")
+    trading_session = TailTradingSession(
+        "3jgub3P9KP3XA9Dwh7XpKu35BiQNTZZXbPmfBAJMsroL", SolscanNetworker())
+    trading_session.prepare()
+    trading_session.start()
+
+
 if __name__ == "__main__":
-    asyncio.run(main())
+    demoTradingSession()
+    # getTransfers()
+    # pullToken()
+    # asyncio.run(main())
