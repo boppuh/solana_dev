@@ -8,6 +8,9 @@ from datetime import datetime
 # from api.bitquery_networker import BitQueryNetworker
 import asyncio
 import logging
+import subprocess
+import time
+from api.bitquery_streamer import subscribe
 
 
 class TelegramMessageHandler:
@@ -114,8 +117,21 @@ def demoTradingSession():
     trading_session.start()
 
 
+def send_mac_notification(title, message, sound="default"):
+    script = f'display notification "{message}" with title "{title}" sound name "{sound}"'
+    subprocess.run(["osascript", "-e", script])
+
+
+def testMacNotifications():
+    while True:
+        send_mac_notification("Hello", "This is a test message", "Glass")
+        time.sleep(5)
+
+
 if __name__ == "__main__":
-    demoTradingSession()
+    asyncio.run(subscribe())
+    # testMacNotifications()
+    # demoTradingSession()
     # getTransfers()
     # pullToken()
     # asyncio.run(main())

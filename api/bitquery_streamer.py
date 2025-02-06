@@ -1,73 +1,45 @@
-# from gql import gql
-# from gql.transport.websockets import WebsocketsTransport
+import asyncio
+import websockets
+import json
+
+BITQUERY_WS_URL = "wss://streaming.bitquery.io/graphql"
+# Replace with your actual Bitquery API key
+API_KEY = "ory_at_UG26K0pX40J1GwEhIVqXhnkexcJRd1PCA9bp_7pbFJM.26VQ7W1wNprXy5jQVZ318frOaNifaD9meR5SoLp-hS8"
+
+# GraphQL subscription query
+QUERY = """
+subscription {
+  Solana {
+    BalanceUpdates(
+      where: { Account: { is: "YourSolanaWalletAddress" } } # Replace with your Solana wallet address
+    ) {
+      Account
+      Currency {
+        Symbol
+        Mint
+        Decimals
+      }
+      Value
+      Transaction {
+        Signature
+      }
+      Block {
+        Slot
+        Timestamp
+      }
+    }
+  }
+}
+"""
 
 
-# async def main():
-#     transport = WebsocketsTransport(
-#         url="wss://streaming.bitquery.io/eap?token=ory_at_UG26K0pX40J1GwEhIVqXhnkexcJRd1PCA9bp_7pbFJM.26VQ7W1wNprXy5jQVZ318frOaNifaD9meR5SoLp-hS8",
-#         headers={"Sec-WebSocket-Protocol": "graphql-ws"})
+async def subscribe():
+    """Subscribes to real-time Solana balance updates."""
+    async with websockets.connect(BITQUERY_WS_URL, extra_headers={"X-API-KEY": API_KEY}) as ws:
+        await ws.send(json.dumps({"query": QUERY}))
+        while True:
+            response = await ws.recv()
+            data = json.loads(response)
+            print(json.dumps(data, indent=2))  # Pretty-print the response
 
-#     # Use `/eap` instead of `/graphql` if you are using chains on EAP endpoint
-#     await transport.connect()
-#     print("Connected")
-
-#     # Define the subscription query
-#     query = gql("""
-#         subscription {
-#             Solana {
-#                 DEXPools {
-#                     Block {
-#                         Time
-#                     }
-#                     Pool {
-#                         Base {
-#                             ChangeAmount
-#                             PostAmount
-#                             Price
-#                             PriceInUSD
-#                         }
-#                         Quote {
-#                             ChangeAmount
-#                             PostAmount
-#                             Price
-#                             PriceInUSD
-#                         }
-#                         Dex {
-#                             ProgramAddress
-#                             ProtocolFamily
-#                         }
-#                         Market {
-#                             BaseCurrency {
-#                                 MintAddress
-#                                 Name
-#                                 Symbol
-#                             }
-#                             QuoteCurrency {
-#                                 MintAddress
-#                                 Name
-#                                 Symbol
-#                             }
-#                             MarketAddress
-#                         }
-#                     }
-#                 }
-#             }
-# }
-#     """)
-
-#     async def subscribe_and_print():
-#         try:
-#             async for result in transport.subscribe(query):
-#                 print(result)
-#         except asyncio.CancelledError:
-#             print("Subscription cancelled.")
-
-#     # Run the subscription and stop after 100 seconds
-#     try:
-#         await asyncio.wait_for(subscribe_and_print(), timeout=100)
-#     except asyncio.TimeoutError:
-#         print("Stopping subscription after 100 seconds.")
-
-#     # Close the connection
-#     await transport.close()
-#     print("Transport closed")
+# Export the subscribe method for external use

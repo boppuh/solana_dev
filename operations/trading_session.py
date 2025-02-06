@@ -1,4 +1,6 @@
+import subprocess
 import time
+
 
 SOLANA_ADDRESS_1 = "So11111111111111111111111111111111111111111"
 SOLANA_ADDRESS_2 = "So11111111111111111111111111111111111111112"
@@ -19,6 +21,7 @@ class TailTradingSession:
             self.wallet_address, 100)
         for transfer in transfers:
             if not transfer.token_address in self.cached_token_addresses and transfer.token_address != SOLANA_ADDRESS_1 and transfer.token_address != SOLANA_ADDRESS_2 and transfer.to_address == self.wallet_address:
+                # Need to see how we can detect open trades - or do we want to... let's ignore them and play new plays
                 print("Caching token: ", transfer.token_address)
                 self.cached_token_addresses.add(transfer.token_address)
 
@@ -29,15 +32,26 @@ class TailTradingSession:
             transfers = self.solscan_networker.getTransfers(
                 self.wallet_address, 10)
             for transfer in transfers:
-                if not transfer.token_address in self.cached_token_addresses and transfer.token_address != SOLANA_ADDRESS_1 and transfer.token_address != SOLANA_ADDRESS_2 and transfer.to_address == self.wallet_address:
-                    print("BUY THE COIN")
-                    self.cached_token_addresses.add(
-                        transfer.token_address)  # Do we need this
+                if not transfer.token_address in self.cached_token_addresses and not transfer.token_address in self.trades and transfer.token_address != SOLANA_ADDRESS_1 and transfer.token_address != SOLANA_ADDRESS_2 and transfer.to_address == self.wallet_address:
+                    self.send_mac_notification(
+                        "Solana Trader", "Wallet Updated - BUY", "Glass")
+                    # self.cached_token_addresses.add(
+                    #     transfer.token_address)
                     self.trades.add(transfer.token_address)
-                elif transfer.token_address in self.cached_token_addresses and transfer.token_address in self.trades and transfer.to_address == self.wallet_address:
+                elif not transfer.token_address in self.cached_token_addresses and transfer.token_address in self.trades and transfer.to_address == self.wallet_address:
+                    # We need to fix this because it always triggers - maybe don't put it in cached until trade is complete
+                    self.send_mac_notification(
+                        "Solana Trader", "Wallet Updated - ADD TO POSITION", "Glass")
                     print("ADD TO POSITION")
                 elif transfer.token_address in self.cached_token_addresses and transfer.token_address in self.trades and transfer.from_address == self.wallet_address:
                     print("SELL THE COIN")
+                    self.send_mac_notification(
+                        "Solana Trader", "Wallet Updated - SELL", "Glass")
+                    self.cached_token_addresses.add(transfer.token_address)
                     self.trades.remove(transfer.token_address)
 
             time.sleep(5)
+
+    def send_mac_notification(self, title, message, sound="default"):
+        script = f'display notification "{message}" with title "{title}" sound name "{sound}"'
+        subprocess.run(["osascript", "-e", script])
