@@ -55,7 +55,7 @@ def get_quote_v2():
 # quote_response =  # Your quote response object
 # public_key =  # Your public key string
 
-swap_response = swap(quote_response, public_key)
-print(swap_response)
+# swap_response = swap(quote_response, public_key)
+# print(swap_response)
 
-get_quote_v2()
+# get_quote_v2()

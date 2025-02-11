@@ -2,7 +2,8 @@ from managers.screened_tokens_manager import ScreenedTokensManager
 from utils.solana_utils import SolanaUtils
 from utils.printer import PrintingUtils
 from clients.telegram_client import TgClient
-from clients.jupiter_networker import JupiterClient
+# from clients.jupiter_client import JupiterClient
+from api.bitquery_streamer import subscribe, pull, test_connection
 from api.jupiter_network_v2 import get_quote
 from api.solscan_networker import SolscanNetworker
 from operations.trading_session import TailTradingSession
@@ -131,9 +132,9 @@ def testMacNotifications():
 
 
 if __name__ == "__main__":
+    # asyncio.run(pull())
     # let jupiterClient = JupiterClient()
-    # asyncio.run(subscribe())
-    asyncio.run(get_quote)
+    asyncio.run(subscribe())
     # testMacNotifications()
     # demoTradingSession()
     # getTransfers()
