@@ -1,9 +1,6 @@
 import asyncio
-import requests
-import websockets
-import json
-
-import websockets.client
+from gql import Client, gql
+from gql.transport.websockets import WebsocketsTransport
 
 BITQUERY_WS_URL = "wss://streaming.bitquery.io/eap"
 # Replace with your actual Bitquery API key
@@ -14,7 +11,8 @@ QUERY = """
 subscription {
   Solana {
     BalanceUpdates(
-      where: { Account: { is: "4yCqEknZEJwPngkAaX4F2peVUGGhWB82kwBKK7LHGg1A" } } # Replace with your Solana wallet address
+      # Replace with your Solana wallet address
+      where: { Account: { is: "4yCqEknZEJwPngkAaX4F2peVUGGhWB82kwBKK7LHGg1A" } }
     ) {
       Account
       Currency {
@@ -36,33 +34,42 @@ subscription {
 """
 
 
-async def pull():
-    url = "https://streaming.bitquery.io/graphql"
-    response = requests.get(url, headers={"X-API-KEY": API_KEY})
+async def example():
+    transport = WebsocketsTransport(
+        url="wss://streaming.bitquery.io/graphql?token=ory_at_UG26K0pX40J1GwEhIVqXhnkexcJRd1PCA9bp_7pbFJM.26VQ7W1wNprXy5jQVZ318frOaNifaD9meR5SoLp-hS8",
+        headers={"Sec-WebSocket-Protocol": "graphql-ws"}
+    )
 
-    print(response.status_code)  # Should be 200 if the key is valid
-    # Should contain information about the account's balance updates
-    print(response.text)
+    # Use `/eap` instead of `/graphql` if you are using chains on EAP endpoint
+    await transport.connect()
+    print("Connected")
 
+    # Define the subscription query
+    query = gql("""
+    subscription MyQuery {
+      EVM(network: eth) {
+        count: Blocks {
+          Block {
+            TxCount
+          }
+        }
+      }
+    }
+  """)
 
-async def subscribe():
-    """Subscribes to real-time Solana balance updates."""
-    async with websockets.client.connect(BITQUERY_WS_URL, extra_headers={"X-API-KEY": API_KEY}) as ws:
-        print("HERE - 1")
-        await ws.send(json.dumps({"query": QUERY}))
-        print("HERE - 2")
-        while True:
-            print("HERE - 3")
-            response = await ws.recv()
-            data = json.loads(response)
-            print(json.dumps(data, indent=2))  # Pretty-print the response
+    async def subscribe_and_print():
+        try:
+            async for result in transport.subscribe(query):
+                print(result)
+        except asyncio.CancelledError:
+            print("Subscription cancelled.")
 
-
-async def test_connection():
+    # Run the subscription and stop after 100 seconds
     try:
-        async with websockets.client.connect("wss://streaming.bitquery.io/eap") as ws:
-            print("✅ Successfully connected to Bitquery WebSocket!")
-    except Exception as e:
-        print(f"❌ Connection failed: {e}")
+        await asyncio.wait_for(subscribe_and_print(), timeout=100)
+    except asyncio.TimeoutError:
+        print("Stopping subscription after 100 seconds.")
 
-# Export the subscribe method for external use
+    # Close the connection
+    await transport.close()
+    print("Transport closed")
